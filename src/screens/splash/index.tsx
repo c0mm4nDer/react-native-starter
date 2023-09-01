@@ -8,13 +8,15 @@ import {
     View,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import fonts from '../../theme/fonts';
-import colors from '../../theme/colors';
-import metrics, { wp } from '../../theme/metrics';
 import { useTranslation } from 'react-i18next';
 import localStorage from '@react-native-async-storage/async-storage';
-import { useAppDispatch } from '../../hooks/ToolkitHooks';
-import { setPerson } from '../../store/auth/reducers';
+import fonts from 'src/theme/fonts';
+import colors from 'src/theme/colors';
+import metrics, { wp } from 'src/theme/metrics';
+import { setPerson } from 'src/store/auth/reducers';
+import { useAppDispatch } from 'src/hooks/ToolkitHooks';
+
+import LogoSvg from 'src/assets/images/logo.svg';
 
 const SplashScreen = ({ navigation }: any) => {
     const { t } = useTranslation();
@@ -41,6 +43,10 @@ const SplashScreen = ({ navigation }: any) => {
             <StatusBar barStyle="dark-content" backgroundColor="#fff" />
             <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
                 {/* <Image source={logoImg} /> */}
+                <LogoSvg
+                    width="100"
+                    height="50"
+                />
                 <Text style={styles.titleStyle}>{t('common:company')}</Text>
                 <Text style={styles.subtitleStyle}>{t('common:slogan')}</Text>
 
