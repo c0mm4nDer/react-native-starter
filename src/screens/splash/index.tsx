@@ -63,7 +63,7 @@ const SplashScreen = ({ navigation }: any) => {
                 <Text style={{ ...themeStyles.normalText, alignSelf: 'center', fontSize: fonts.size.font10, color: colors.primary }}>{t('common:waiting')}</Text>
             </View> */}
             <View style={{ flexDirection: 'row' }}>
-                <Text style={styles.copyright}>{t('common:copyright1')}</Text>
+                <Text style={styles.copyright}>{t('common:copyright1')} متن تست فونت</Text>
                 <Text style={[styles.copyright, { color: colors.primary }]}>{t('common:copyright2')}</Text>
                 <Text style={styles.copyright}>{t('common:copyright3')}</Text>
             </View>

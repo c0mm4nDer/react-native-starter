@@ -1,0 +1,29 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/BYekan+ Bold.ttf",
+      "sha1": "0c40703b127e4cfeefd39587b24f19d0dc5ab4f7"
+    },
+    {
+      "path": "src/assets/fonts/BYekan+.ttf",
+      "sha1": "50919cf5c17afde12809e862cb1744c2ca2f24fd"
+    },
+    {
+      "path": "src/assets/fonts/IRANSansXBold.ttf",
+      "sha1": "1f222940301af00ce108c572ccbbc65e10674ade"
+    },
+    {
+      "path": "src/assets/fonts/IRANSansXFaNum-Bold.ttf",
+      "sha1": "4b470c0c512436bd1b727fbb97edb7e3709d47db"
+    },
+    {
+      "path": "src/assets/fonts/IRANSansXFaNum-Regular.ttf",
+      "sha1": "54f354bea2f9c3cddcfac99fe77240fca52d9f88"
+    },
+    {
+      "path": "src/assets/fonts/IRANSansXRegular.ttf",
+      "sha1": "f833da2313469c5077382d642c9d35f521a2b2d5"
+    }
+  ]
+}

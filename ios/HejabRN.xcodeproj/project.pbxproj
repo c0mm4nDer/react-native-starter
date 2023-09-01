@@ -14,6 +14,12 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-HejabRN-HejabRNTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-HejabRN-HejabRNTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		984AD34A6BBE41F8BBA2E985 /* BYekan+ Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A293B02C1934AA897C1988A /* BYekan+ Bold.ttf */; };
+		C61CE68A427F4AC9921CE4CC /* BYekan+.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D043105E7C144054BC38F1C6 /* BYekan+.ttf */; };
+		7A5BEC88EEA84CD98ED5B2CF /* IRANSansXBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1E3FA1FA263489DB9F107C3 /* IRANSansXBold.ttf */; };
+		A28F5F14827945DEBB2A2BE9 /* IRANSansXFaNum-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69DB6378C6A14DF29AED525A /* IRANSansXFaNum-Bold.ttf */; };
+		19BD96727CCC44338DA592E1 /* IRANSansXFaNum-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 098D1060F7784AD28D7AD3A6 /* IRANSansXFaNum-Regular.ttf */; };
+		D4B8E30F22024B5B9B60B6B2 /* IRANSansXRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5020DEF86D0F4C81B8E65320 /* IRANSansXRegular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = HejabRN/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-HejabRN-HejabRNTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HejabRN-HejabRNTests.release.xcconfig"; path = "Target Support Files/Pods-HejabRN-HejabRNTests/Pods-HejabRN-HejabRNTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		7A293B02C1934AA897C1988A /* BYekan+ Bold.ttf */ = {isa = PBXFileReference; name = "BYekan+ Bold.ttf"; path = "../src/assets/fonts/BYekan+ Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D043105E7C144054BC38F1C6 /* BYekan+.ttf */ = {isa = PBXFileReference; name = "BYekan+.ttf"; path = "../src/assets/fonts/BYekan+.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E1E3FA1FA263489DB9F107C3 /* IRANSansXBold.ttf */ = {isa = PBXFileReference; name = "IRANSansXBold.ttf"; path = "../src/assets/fonts/IRANSansXBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		69DB6378C6A14DF29AED525A /* IRANSansXFaNum-Bold.ttf */ = {isa = PBXFileReference; name = "IRANSansXFaNum-Bold.ttf"; path = "../src/assets/fonts/IRANSansXFaNum-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		098D1060F7784AD28D7AD3A6 /* IRANSansXFaNum-Regular.ttf */ = {isa = PBXFileReference; name = "IRANSansXFaNum-Regular.ttf"; path = "../src/assets/fonts/IRANSansXFaNum-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5020DEF86D0F4C81B8E65320 /* IRANSansXRegular.ttf */ = {isa = PBXFileReference; name = "IRANSansXRegular.ttf"; path = "../src/assets/fonts/IRANSansXRegular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +134,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				E53894B6313E4E388DF9B398 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +160,20 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		E53894B6313E4E388DF9B398 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				7A293B02C1934AA897C1988A /* BYekan+ Bold.ttf */,
+				D043105E7C144054BC38F1C6 /* BYekan+.ttf */,
+				E1E3FA1FA263489DB9F107C3 /* IRANSansXBold.ttf */,
+				69DB6378C6A14DF29AED525A /* IRANSansXFaNum-Bold.ttf */,
+				098D1060F7784AD28D7AD3A6 /* IRANSansXFaNum-Regular.ttf */,
+				5020DEF86D0F4C81B8E65320 /* IRANSansXRegular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -244,6 +271,12 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				984AD34A6BBE41F8BBA2E985 /* BYekan+ Bold.ttf in Resources */,
+				C61CE68A427F4AC9921CE4CC /* BYekan+.ttf in Resources */,
+				7A5BEC88EEA84CD98ED5B2CF /* IRANSansXBold.ttf in Resources */,
+				A28F5F14827945DEBB2A2BE9 /* IRANSansXFaNum-Bold.ttf in Resources */,
+				19BD96727CCC44338DA592E1 /* IRANSansXFaNum-Regular.ttf in Resources */,
+				D4B8E30F22024B5B9B60B6B2 /* IRANSansXRegular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
